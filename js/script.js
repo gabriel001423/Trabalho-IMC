@@ -20,16 +20,10 @@ function calcular() {
     foto.style.display = "block";
   } else if (imc >= 30 && imc < 35) {
     resultado.innerHTML = "Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau 1)";
-    foto.src = "";
-    foto.style.display = "block";
   } else if (imc >= 35 && imc < 40) {
-    resultado.innerHTML =
-      "Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau 2)";
-    foto.src = "";
-    foto.style.display = "block";
+    resultado.innerHTML ="Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau 2)";
   } else if (imc >= 40) {
-    resultado.innerHTML =
-      "Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau 3)";
+    resultado.innerHTML ="Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau 3)";
     foto.src = "img/obessidade.jpg";
     foto.style.display = "block";
   } else {
