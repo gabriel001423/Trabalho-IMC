@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <title>IMC online</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="img/icone-orange.png" />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <div class="navbar">IMC online</div>
-    <div class="caixa">
-      <input type="text" id="Genero" placeholder="Gênero" />
-      <input type="number" id="Altura" placeholder="Altura" />
-      <input type="number" id="Peso" placeholder="Peso" /><br />
-      <button onclick="calcular()">Calcular IMC</button>
-      <p id="resultado"></p>
-      <img id="foto" style="width: 200px; display: none" alt="Imagem do IMC" />
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <title>IMC online</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="img/icone-orange.png" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
 
-    <script src="js/script.js"></script>
-  </body>
-  <footer class="rodape">&copy; todos os direitos reservados - 2025</footer>
+<body>
+  <div class="navbar">IMC online</div>
+  <div class="caixa">
+    <input type="text" id="Genero" placeholder="Gênero" />
+    <input type="number" id="Altura" placeholder="Altura" />
+    <input type="number" id="Peso" placeholder="Peso" /><br />
+    <button onclick="calcular()">Calcular IMC</button>
+    <p id="resultado"></p>
+    <img id="foto" style="width: 200px; display: none" alt="Imagem do IMC" />
+  </div>
+  <div class="conteudo">
+    <h2>O que é IMC?</h2>
+    <p>IMC (Índice de Massa Corporal) é uma medida usada para saber se uma pessoa está com o peso adequado em relação à
+    altura.</p>
+
+    <h3>Para que serve?</h3>
+    <p>Serve para avaliar se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade. É usado por médicos
+    como parte do diagnóstico da saúde.</p>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+<footer class="rodape">&copy; todos os direitos reservados - 2025</footer>
+
 </html>

@@ -1,8 +1,21 @@
 body {
   margin: 0 !important;
-  font-family: 'DM Sans', sans-serif !important;
+  font-family: "DM Sans", sans-serif !important;
   background-size: cover !important;
-  background: linear-gradient(to right, rgb(255, 195, 104), rgb(231, 150, 0)) !important;
+  background: linear-gradient(
+    to right,
+    rgb(255, 195, 104),
+    rgb(231, 150, 0)
+  ) !important;
+}
+
+.conteudo {
+  text-align: center;
+  color: white;
+  padding: 60px;
+  padding-top: 100px;
+  margin-top: 300px;
+  background-color: rgb(187, 121, 0);
 }
 
 .navbar {
@@ -83,6 +96,8 @@ button:hover {
   display: block;
 }
 
-.navbar, .rodape, .caixa {
-  font-family: 'DM Sans', sans-serif;
+.navbar,
+.rodape,
+.caixa {
+  font-family: "DM Sans", sans-serif;
 }
