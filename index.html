@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>IMC online</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="img/icone-orange.png">
+    <link rel="icon" type="image/x-icon" href="img/icone-orange.png" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="navbar">IMC online</div>
-
     <div class="caixa">
-        <input type="text" id="Genero" placeholder="Gênero" />
-        <input type="number" id="Altura" placeholder="Altura" />
-        <input type="number" id="Peso" placeholder="Peso" /><br>
-        <button onclick="calcular()">Calcular IMC</button>
-        <p id="resultado"></p>
+      <input type="text" id="Genero" placeholder="Gênero" />
+      <input type="number" id="Altura" placeholder="Altura" />
+      <input type="number" id="Peso" placeholder="Peso" /><br />
+      <button onclick="calcular()">Calcular IMC</button>
+      <p id="resultado"></p>
+      <img id="foto" style="width: 200px; display: none" alt="Imagem do IMC" />
     </div>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
+  <footer class="rodape">&copy; todos os direitos reservados - 2025</footer>
 </html>
