@@ -2,11 +2,14 @@ function calcular() {
   let Peso = Number(document.getElementById("Peso").value);
   let Altura = Number(document.getElementById("Altura").value);
   let resultado = document.getElementById("resultado");
+  let foto = document.getElementById("foto")
 
   let imc = Peso / (Altura * Altura);
 
   if (imc < 18.6) {
     resultado.innerHTML = "Seu IMC é: " + imc.toFixed(2) + " (Abaixo do peso)";
+    foto.src = "magro.jpg";
+    foto.style.display = "block";
   } else if (imc >= 18.6 && imc < 25) {
     resultado.innerHTML = "Seu IMC é: " + imc.toFixed(2) + " (Peso ideal)";
   } else if (imc >= 25 && imc < 30) {
